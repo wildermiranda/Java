@@ -153,10 +153,11 @@ public class Main {
 
         // Scanner
 
+        /*
         Scanner sc = new Scanner(System.in);
 
         System.out.print("Digite seu nome: ");
-        String name = sc.nextLine(); // 'Josep'
+        String name = sc.nextLine(); // 'Josep Guardiola Sala'
 
         System.out.print("Digite sua idade: ");
         byte age = sc.nextByte(); // 53
@@ -164,16 +165,80 @@ public class Main {
         System.out.print("Digite sua altura (em metros): ");
         double height = sc.nextDouble(); // 1.80
 
-        System.out.print("|    Nome           |");
+        System.out.print("|    Nome              |");
+            //            'Josep Guardiola Sala'
         System.out.print("    Idade    |");
         System.out.println("    Altura    |");
-        System.out.print("|-------------------|");
+        System.out.print("|----------------------|");
         System.out.print("-------------|");
         System.out.println("--------------|");
-        System.out.print("| " + name + "             |");
+        System.out.print("| " + name + " |");
         System.out.print(" " + age + "          |");
         System.out.println(" " + height + "          |");
 
-        sc.close(); // Boa prática para evitar vazamento de recursos.
+        sc.close(); // Boa prática para evitar vazamento de recursos. */
+
+
+
+
+
+
+
+
+        /*
+        Scanner sc = new Scanner(System.in);
+
+        char w;
+
+        System.out.print("Enter a character: ");
+        w = sc.next().charAt(0);
+
+        System.out.println("-");
+
+        System.out.println("Character: " + w); */
+
+
+
+
+        /*
+        Scanner sc = new Scanner(System.in);
+
+        String product;
+        int code;
+        double price;
+
+        // System.out.print("Digite o nome do produto: ");
+        product = sc.next(); // Lâmpada
+
+        // System.out.print("Digite o código do pruduto: ");
+        code = sc.nextInt(); // 4589
+
+        // System.out.print("Digite o preço do produto: ");
+        price = sc.nextDouble(); // 25.00
+
+        System.out.println("-");
+
+        System.out.printf("%s | %d | %f%n", product, code, price); */
+
+
+
+
+        /*
+        Scanner sc = new Scanner(System.in);
+
+        int w;
+        String x, y, z;
+
+        w = sc.nextInt();  // Lê o número
+        sc.nextLine();      // Consome a quebra de linha pendente
+
+        x = sc.nextLine();  // Lê a primeira string
+        y = sc.nextLine();  // Lê a segunda string
+        z = sc.nextLine();  // Lê a terceira string
+
+        System.out.println();
+        System.out.println("Number: " + w);
+        System.out.println("-");
+        System.out.printf("Strings: %s, %s, %s%n", x, y, z); */
     }
 }
