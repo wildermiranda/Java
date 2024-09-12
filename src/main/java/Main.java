@@ -195,7 +195,9 @@ public class Main {
 
         System.out.println("-");
 
-        System.out.println("Character: " + w); */
+        System.out.println("Character: " + w);
+
+        sc.close();*/
 
 
 
@@ -218,7 +220,9 @@ public class Main {
 
         System.out.println("-");
 
-        System.out.printf("%s | %d | %f%n", product, code, price); */
+        System.out.printf("%s | %d | %f%n", product, code, price);
+
+        sc.close();*/
 
 
 
@@ -239,6 +243,244 @@ public class Main {
         System.out.println();
         System.out.println("Number: " + w);
         System.out.println("-");
-        System.out.printf("Strings: %s, %s, %s%n", x, y, z); */
+        System.out.printf("Strings: %s, %s, %s%n", x, y, z);
+
+        sc.close();*/
+
+
+
+
+
+
+
+
+        /*
+        // Funções matemáticas
+
+        double w = 3.0;
+        double x = 4.0;
+        double y = -5.0;
+
+        double l, m, n;
+
+        l = Math.sqrt(w);
+        m = Math.sqrt(x);
+        n = Math.sqrt(25.0);
+
+        System.out.println("Raiz quadrada de " + w + " = " + l);
+        System.out.println("Raiz quadrada de " + x + " = " + m);
+        System.out.println("Raiz quadrada de 25 = " + n);
+
+        System.out.println("-");
+
+        l = Math.pow(w, x);
+        m = Math.pow(w, 2.0);
+        n = Math.pow(5.0, 2.0);
+        System.out.println(w + " elevado a " + x + " = " + l);
+        System.out.println(w + " elevado ao quadrado = " + m);
+        System.out.println("5 elevado ao quadrado = " + n);
+
+        System.out.println("-");
+
+        l = Math.abs(x);
+        m = Math.abs(y);
+
+        System.out.println("Valor absoluto de " + x + " = " + l);
+        System.out.println("Valor absoluto de " + y + " = " + m); */
+
+
+
+
+        // Fórmula de bhaskara
+
+        /*
+        double delta, raiz1, raiz2;
+        double a, b, c;
+
+        a = 4.0;
+        b = 2.0;
+        c = -6.0;
+
+        delta = Math.pow(b, 2.0) - 4 * a * c;
+
+        raiz1 = (-b + Math.sqrt(delta)) / (2.0 * a);
+        raiz2 = (-b - Math.sqrt(delta)) / (2.0 * a);
+
+        System.out.println("Delta: " + delta);
+        System.out.println("-");
+        System.out.println("Raiz 1: " + raiz1);
+        System.out.println("Raiz 2: " + raiz2); */
+
+        // Mais informações: java.lang.Math
+
+
+
+
+
+
+
+
+        // Exercícios sobre Estrutura Sequencial (entrada, processamento, saída)
+
+        // Exercício 1
+
+        /*Scanner sc = new Scanner(System.in);
+
+        int number1, number2;
+
+        System.out.println();
+
+        System.out.print("Digite um número: ");
+        number1 = sc.nextInt();
+
+        System.out.print("Digite outro número: ");
+        number2 = sc.nextInt();
+
+        int add = number1 + number2;
+
+
+        System.out.println("-");
+
+        System.out.println("Soma dos números: " + add);
+
+        sc.close();*/
+
+
+        // Exercício 2
+
+        /*Scanner sc = new Scanner(System.in);
+
+        double area, raio;
+        double pi = 3.14159;
+
+        System.out.println();
+
+        System.out.print("Digite o valor do raio de um círculo: ");
+        raio = sc.nextDouble();
+
+        area = pi * Math.pow(raio, 2.0);
+
+        System.out.println("-");
+
+        System.out.printf("Área: %.4f%n", area);
+
+        sc.close();*/
+
+
+        // Exercício 3
+
+        /*Scanner sc = new Scanner(System.in);
+
+        int A, B, C, D, productDifference;
+
+        System.out.println();
+
+        System.out.print("A: ");
+        A = sc.nextInt();
+
+        System.out.print("B: ");
+        B = sc.nextInt();
+
+        System.out.print("C: ");
+        C = sc.nextInt();
+
+        System.out.print("D: ");
+        D = sc.nextInt();
+
+        productDifference = A * B - C * D;
+
+        System.out.println("-");
+
+        System.out.println("Diferença dos produtos: " + productDifference);
+
+        sc.close();*/
+
+
+        // Exercício 4
+
+        /*Scanner sc = new Scanner(System.in);
+
+        int code, horasTrabalhadas;
+        double valorHora, salary;
+
+        System.out.println();
+
+        System.out.print("Digite o número do funcionário: ");
+        code = sc.nextInt();
+
+        System.out.print("Digite o número de horas trabalhadas: ");
+        horasTrabalhadas = sc.nextInt();
+
+        System.out.print("Digite o valor que recebe por hora: ");
+        valorHora = sc.nextDouble();
+
+        salary = horasTrabalhadas * valorHora;
+
+        System.out.println("-");
+
+        System.out.println("Nº Funcionário: " + code);
+        System.out.printf("Salário: U$ %.2f%n", salary);
+
+        sc.close();*/
+
+
+        // Exercício 5
+
+        /*Scanner sc = new Scanner(System.in);
+
+        int code1, code2, quantity1, quantity2;
+        double unitValue1, unitValue2, total;
+
+        code1 = sc.nextInt();
+        quantity1 = sc.nextInt();
+        unitValue1 = sc.nextDouble();
+
+        code2 = sc.nextInt();
+        quantity2 = sc.nextInt();
+        unitValue2 = sc.nextDouble();
+
+        total = quantity1 * unitValue1 + quantity2 * unitValue2;
+
+        System.out.println("-");
+
+        System.out.printf("Valor a pagar: R$ %.2f%n", total);
+
+        sc.close();*/
+
+
+        // Exercício 6
+
+        /*Scanner sc = new Scanner(System.in);
+
+        double A, B, C, triangulo, circulo, trapezio, quadrado, retangulo;
+        double pi = 3.14159;
+
+        A = sc.nextDouble();
+        B = sc.nextDouble();
+        C = sc.nextDouble();
+
+        triangulo = A * C / 2.0;
+        circulo = pi * Math.pow(C, 2.0);
+        trapezio = (A + B) * C / 2.0;
+        quadrado = Math.pow(B, 2.0);
+        retangulo = A * B;
+
+        System.out.println("-");
+
+        System.out.printf("Triângulo: %.3f%n", triangulo);
+        System.out.printf("Círculo: %.3f%n", circulo);
+        System.out.printf("Trapézio: %.3f%n", trapezio);
+        System.out.printf("Quadrado: %.3f%n", quadrado);
+        System.out.printf("Retângulo: %.3f%n", retangulo);
+
+        sc.close();*/
+
+
+
+
+
+
+
+        //
     }
 }
